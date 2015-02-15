@@ -1,11 +1,11 @@
 # Postgres settings
 # #################
-# development:
-#   adapter: postgresql
-#   host: localhost
-#   database: kandan_development
-#   pool: 5
-#   timeout: 5000
+ development:
+   adapter: postgresql
+   host: localhost
+   database: kandan_development
+   pool: 5
+   timeout: 5000
 
 #development:
 #  adapter: sqlite3
@@ -19,11 +19,11 @@
 #  pool: 5
 #  timeout: 5000
 
-development:
-  adapter: mysql2
-  encoding: utf8
-  database: my_db_name
-  username: root
-  password: my_password
-  host: 127.0.0.1
-  port: 3306
+#development:
+#  adapter: mysql2
+#  encoding: utf8
+#  database: my_db_name
+#  username: root
+#  password: my_password
+#  host: 127.0.0.1
+#  port: 3306

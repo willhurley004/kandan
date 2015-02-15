@@ -4,10 +4,10 @@ source 'https://rubygems.org'
 gem 'rails', '~> 3.2.21'
 
 # Database adapters
-#gem 'pg'
+gem 'pg'
 
 # Uncomment next line when using MySQL database
-gem 'mysql2'
+#gem 'mysql2'
 
 # Auth gems
 gem 'devise'
